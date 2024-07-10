@@ -1,0 +1,376 @@
+@media(max-width:1200px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+
+	body {
+		padding-top: 75px;
+	}
+
+
+	/* header{
+			height: 75px;
+			background: #fff;
+		}
+		header.fixed{
+			height: 75px;
+		} */
+
+
+	.site-branding {
+		top: 0;
+		left: 0;
+	}
+
+	header.fixed .site-branding {
+		top: 0;
+	}
+
+	.site-branding a.logo {}
+
+	.site-branding a.logo img {
+		max-width: 120px;
+		height: auto;
+	}
+
+	header.fixed .site-branding a.logo img {
+		max-width: 120px;
+	}
+
+	.site-branding a.logo img.logo-2 {
+		visibility: visible;
+		display: block;
+		height: 5em;
+	}
+
+	.site-branding a.logo img.logo-1 {
+		visibility: hidden;
+		display: none;
+
+	}
+
+	.header-right {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: end;
+	}
+
+
+	.site-navwrap {
+		top: 0;
+
+	}
+
+	header.fixed .site-navwrap {
+		top: 0;
+	}
+
+	.headermenu ul {
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.headermenu ul li {
+		float: none;
+		width: min-content;
+	}
+
+	nav.headermenu ul li a{
+		float: none;
+		width: min-content;
+		padding: 0 0;
+		text-align: center;
+	}
+	/* -- BREAK -- */
+
+
+
+
+
+
+
+
+
+	.banner {
+		padding: 80px 0;
+		background-position-x: 8em;
+		background-position-y: 5em;
+	}
+
+	.bannercontent .text {
+		width: 50%;
+	}
+
+	.bannercontent .text h3 {
+		font-size: 35px;
+	}
+
+	.bannercontent .text h2 {
+		font-size: 56px;
+		margin-bottom: 20px;
+	}
+
+	.bannercontent .text p {
+		font-size: 25px;
+		line-height: 150%;
+	}
+
+
+
+
+
+
+	.about {
+		padding: 45px 0;
+	}
+
+	.about .contentinline {
+		align-items: flex-start;
+	}
+
+	.about .text h3 , .values-container h3,
+	.team-container h3{
+		font-size: 42px;
+		margin-bottom: 10px;
+	}
+
+	.about .text h4 {
+		font-size: 21px;
+		margin-bottom: 30px;
+	}
+
+	.about .text p,
+	.about .text ul li {
+		font-size: 13px;
+	}
+
+.value-icon-container{
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+	.foodmenu {
+		padding: 45px 0 10px 0;
+	}
+
+	.foodmenu h3 {
+		font-size: 42px;
+	}
+
+	.foodmenu h4 {
+		font-size: 21px;
+	}
+
+	.menuitems_wrap {
+		margin-top: 40px;
+		gap: 2em;
+	}
+
+	.menuitems_wrap .item {
+		margin-bottom: 30px;
+	}
+
+	.menuitems_wrap .item h6 {
+		font-size: 11px;
+	}
+
+	.menuitems_wrap .item h5 {
+		font-size: 17px;
+	}
+
+	.menuitems_wrap .item p {
+		font-size: 13px;
+	}
+
+
+
+
+	.contactsection {
+		padding: 45px 0;
+	}
+
+	.contactsection h3 {
+		font-size: 42px;
+	}
+
+	.contactsection h4 {
+		font-size: 21px;
+	}
+
+	.contactsection p {
+		font-size: 13px;
+	}
+
+	.contactform {
+		width: 100%;
+		margin: 0 auto 40px auto;
+	}
+
+	.contactform form input[type="text"],
+	.contactform form input[type="email"],
+	.contactform form textarea {
+		width: 100%;
+	}
+
+	.contactform form input[type="email"] {
+		margin-top: 20px;
+	}
+
+
+
+
+	footer {
+		padding: 30px 0;
+	}
+}
+
+/* -- 1200 ENDS -- */
+
+
+
+
+
+
+
+
+@media(max-width:800px) {
+
+	.bannercontent .text h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.bannercontent .text .buttons {
+		margin: 30px 0 0 0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.bannercontent .text .buttons a {
+		width: 150px;
+		height: 42px;
+		line-height: 42px;
+		font-size: 12px;
+		margin: 5px 0;
+	}
+
+
+
+
+	.about .text h3 {
+		font-size: 36px;
+		margin-bottom: 10px;
+	}
+
+	.about .text h4 {
+		font-size: 19px;
+		margin-bottom: 30px;
+	}
+
+	.about .text p,
+	.about .text ul li {
+		font-size: 13px;
+	}
+
+
+
+	.foodmenu h3 {
+		font-size: 36px;
+	}
+
+	.foodmenu h4 {
+		font-size: 19px;
+	}
+
+
+
+	.maparea .mapheading {
+		padding: 30px 0;
+		font-size: 24px;
+	}
+
+	.maparea iframe {
+		height: 400px;
+	}
+}
+
+/* -- 800 ENDS -- */
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+	.bannercontent .text h3 {
+		font-size: 18px;
+	}
+
+	.bannercontent .text h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.bannercontent .text p {
+		font-size: 15px;
+		line-height: 150%;
+	}
+
+	.bannercontent .text .buttons {
+		margin: 25px 0 0 0;
+	}
+
+	.bannercontent .text .buttons a {
+		width: 140px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 11px;
+		margin: 4px 0;
+	}
+
+
+	.about .contentinline {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.about .imagearea {
+		width: 100%;
+		margin: 40px 0 0 0;
+	}
+
+	.about .text {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+
+
+
+	.menuitems_wrap .item {
+		flex-basis: 48%;
+	}
+
+
+
+	.copyright {
+		float: left;
+		width: 100%;
+	}
+
+	.credits {
+		float: left;
+		margin-top: 30px;
+	}
+}
+
+/* -- 600 ENDS -- */
