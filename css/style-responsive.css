@@ -53,9 +53,10 @@
 
 	.header-right {
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: row-reverse;
 		justify-content: flex-end;
 		align-items: end;
+		gap: 2em;
 	}
 
 
@@ -63,7 +64,9 @@
 		top: 0;
 
 	}
-
+header{
+	height: 120px;
+}
 	header.fixed .site-navwrap {
 		top: 0;
 	}
@@ -71,18 +74,18 @@
 	.headermenu ul {
 		display: flex;
 		width: 100%;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 	}
 
 	.headermenu ul li {
 		float: none;
-		width: min-content;
+		/* width: min-content; */
 	}
 
 	nav.headermenu ul li a{
 		float: none;
-		width: min-content;
+		/* width: min-content; */
 		padding: 0 0;
 		text-align: center;
 	}
