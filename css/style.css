@@ -203,18 +203,10 @@ header.fixed .site-branding a.logo img.logo-1 {
 }
 
 
-
-.sitenav {}
-
-.navwrap {}
-
 .navouter {
 	display: flex;
 }
 
-nav.headermenu {}
-
-nav.headermenu ul {}
 
 nav.headermenu ul li {
 	float: left;
@@ -557,7 +549,7 @@ header.fixed .contact-info a {
 
 
 /* -- PRODUCT STARTS -- */
-.foodmenu {
+.productmenu {
 	float: left;
 	width: 100%;
 	margin: 0 0 0 0;
@@ -565,7 +557,7 @@ header.fixed .contact-info a {
 	position: relative;
 }
 
-.foodmenu:before {
+.productmenu:before {
 	position: absolute;
 	width: 200px;
 	height: 1px;
@@ -577,7 +569,7 @@ header.fixed .contact-info a {
 	margin: 0 auto 0 auto;
 }
 
-.foodmenu h3 {
+.productmenu h3 {
 	text-align: center;
 	color: #000;
 	font-size: 90px;
@@ -585,7 +577,7 @@ header.fixed .contact-info a {
 	margin-bottom: 10px;
 }
 
-.foodmenu h4 {
+.productmenu h4 {
 	text-align: center;
 	color: #008dc7;
 	font-size: 21px;
@@ -784,7 +776,7 @@ text-overflow: ellipsis;
 	cursor: pointer;
 }
 
-/* -- FOOD MENU ENDS -- */
+/* -- PRODUCT MENU ENDS -- */
 
 
 

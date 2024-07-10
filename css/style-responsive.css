@@ -1,4 +1,8 @@
-@media(max-width:1200px) {
+/**
+ * 	 Name: JYOTIL KATHIRIYA	
+ * 	
+ * */
+ @media(max-width:1200px) {
 	.container {
 		width: 100%;
 		padding: 0 15px;
@@ -10,15 +14,6 @@
 	}
 
 
-	/* header{
-			height: 75px;
-			background: #fff;
-		}
-		header.fixed{
-			height: 75px;
-		} */
-
-
 	.site-branding {
 		top: 0;
 		left: 0;
@@ -27,8 +22,6 @@
 	header.fixed .site-branding {
 		top: 0;
 	}
-
-	.site-branding a.logo {}
 
 	.site-branding a.logo img {
 		max-width: 120px;
@@ -157,15 +150,15 @@ header{
 	margin-bottom: 18px;
 }
 
-	.foodmenu {
+	.productmenu {
 		padding: 45px 0 10px 0;
 	}
 
-	.foodmenu h3 {
+	.productmenu h3 {
 		font-size: 42px;
 	}
 
-	.foodmenu h4 {
+	.productmenu h4 {
 		font-size: 21px;
 	}
 
@@ -283,11 +276,11 @@ header{
 
 
 
-	.foodmenu h3 {
+	.productmenu h3 {
 		font-size: 36px;
 	}
 
-	.foodmenu h4 {
+	.productmenu h4 {
 		font-size: 19px;
 	}
 
